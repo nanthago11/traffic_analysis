@@ -1,0 +1,43 @@
+CREATE KEYSPACE Assignment_1 WITH replication = {'class':'SimpleStrategy', 'replication_factor': 1};
+
+
+CREATE TABLE IF NOT EXISTS question_1
+ (
+    category_name text,
+    category_count int,
+    percentage_grp_by_category int,
+    PRIMARY KEY (category_count)
+);
+
+
+CREATE TABLE IF NOT EXISTS question_2 (
+    summary text,
+    hour int,
+    hr_count int,
+    PRIMARY KEY (summary)
+); 
+  
+
+CREATE TABLE IF NOT EXISTS question_3 (
+    hr_flag text,
+    hour int,
+    hr_count int,
+    PRIMARY KEY (hr_flag)
+);
+
+
+CREATE TABLE IF NOT EXISTS question_4 (
+    junction text,
+    speed_avg int,
+    PRIMARY KEY (speed_avg)
+);
+
+CREATE TABLE IF NOT EXISTS question_5 (
+    cosit text,
+    cosit_name text,
+    count_HGV int,
+    PRIMARY KEY (cosit)
+);
+
+
+

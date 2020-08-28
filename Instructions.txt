@@ -1,0 +1,12 @@
+Step 1: As per the instruction given in requirement doc, downloaded and placed in my home folder.
+home folder : /home/test/
+/home/test/per-vehicle-records-2020-01-31.csv
+
+Step 2: Download file from(https://data.tii.ie/Datasets/TrafficCountData/sites/tmu-sites.json), rename it as cosit_sites.json and place in the home folder
+/home/test/cosit_sites.json
+
+step3: Change the URL of these variables as per your folder structure.
+vehicle_records_csv_url
+cosit_sites_json_url
+
+step4: Run commands mentioned in DDL.txt on Cassandra Cluster.
